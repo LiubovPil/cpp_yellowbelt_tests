@@ -140,7 +140,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BusManager.cpp" />
-    <ClCompile Include="BusStationRefactoring.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Query.cpp" />
+    <ClCompile Include="Responses.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BusManager.h" />
+    <ClInclude Include="Query.h" />
+    <ClInclude Include="Responses.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

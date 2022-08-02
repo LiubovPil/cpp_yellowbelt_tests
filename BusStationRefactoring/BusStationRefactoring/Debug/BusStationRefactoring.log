@@ -1,2 +1,6 @@
-﻿  BusStationRefactoring.cpp
+﻿  BusManager.cpp
+  main.cpp
+  Query.cpp
+  Responses.cpp
+  Создание кода...
   BusStationRefactoring.vcxproj -> C:\Repos\cpp_yellowbelt_tests\BusStationRefactoring\Debug\BusStationRefactoring.exe
