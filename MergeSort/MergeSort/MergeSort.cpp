@@ -41,7 +41,7 @@ void MergeSortThree(RandomIt range_begin, RandomIt range_end) {
 }
 
 int main() {
-    vector<int> v = { 6, 4 , 0, 2};
+    vector<int> v = { 0, -2, 4, -6 };
     MergeSortTwo(begin(v), end(v));
     for (int x : v) {
         cout << x << " ";
