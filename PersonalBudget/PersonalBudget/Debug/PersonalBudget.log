@@ -1,0 +1,3 @@
+﻿  PersonalBudget.cpp
+C:\Repos\cpp_yellowbelt_tests\PersonalBudget\PersonalBudget\PersonalBudget.cpp(85,41): warning C4244: return: преобразование "time_t" в "int", возможна потеря данных
+  PersonalBudget.vcxproj -> C:\Repos\cpp_yellowbelt_tests\PersonalBudget\Debug\PersonalBudget.exe
