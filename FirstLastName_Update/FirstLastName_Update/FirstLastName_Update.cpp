@@ -11,10 +11,16 @@ using namespace std;
 
 class Person {
 public:
-    void ChangeFirstName(int year, const string& first_name) {
-        firstname_changes[year] = first_name;
+    //старый вариант void ChangeFirstName(int year, const string& first_name) {
+    //так как внутри функции происходит копирование, то смысла передавать по ссылке нет
+    // + внутри перемещаем, так как больше нам этот string не нужен будет
+
+    //call for temporary: move -> move
+    //else: copy -> move
+    void ChangeFirstName(int year, string first_name) {
+        firstname_changes[year] = move(first_name);
     }
-    void ChangeLastName(int year, const string& last_name) {
+    void ChangeLastName(int year, string last_name) {
         lastname_changes[year] = last_name;
     }
     string GetFullName(int year) {
